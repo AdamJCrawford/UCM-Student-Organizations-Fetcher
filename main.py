@@ -22,7 +22,7 @@ OPTIONS = ["Contact_Name", "Contact_Email"]
                 "Undergraduate_Student_Organization", "Wellness"
 '''
 
-CATEGORIES = []
+CATEGORIES = ["Academic", "Cultural"]
 
 
 async def get_data(options: list[str]) -> list[list[str]]:
